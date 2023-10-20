@@ -12,7 +12,7 @@ function App() {
 
   let removeValue = () => {
     console.log("Clicked: ", counter);
-    // counter = counter + 1;
+    // counter = counter - 1;
     setCounter(counter - 1);
   }
 
